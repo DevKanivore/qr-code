@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@font-face {
+  
+  font-family: 'noyh';
+  src: url(fontes/Noyh-Regular.ttf);
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #D5E1EF;
+}
+
+#container {
+  margin: min(100% - 4rem, 20rem);
+  margin-inline: auto;
+}
+
+#container {
+  width: 15rem;
+  height: 28rem;
+  max-width: 20rem;
+  margin: 6rem auto 0 auto;
+  padding: 0 1rem;
+  background-color: #fff;
+  border-radius: 5%;
+}
+
+img {
+  height: 15rem;
+  width: 15rem;
+  margin-top: 1rem;
+  justify-content: center;
+  border-radius: 5%;
+}
+p {
+  color: gray;
+  padding-top: 1rem;
+  text-align: center;
+  font-family: 'noyh';
+  font-size: 1.1rem;
+  
+}
+
+.titulo {
+  color: #172940;
+  font-size: 1.5rem;
+  font-family: 'noyh';
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'noyh';
+  color: #172940;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2E97F2;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 3rem;
+}
